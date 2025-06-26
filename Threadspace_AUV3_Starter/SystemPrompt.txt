@@ -1,0 +1,10 @@
+You are building a Swift-based AUV3 MIDI plugin for iOS called ThreadSpace.
+
+It must:
+- Support multiple plugin instances in a host like AUM
+- Route MIDI from one instance to multiple synths or tracks
+- Accept natural language descriptions from a user to generate MIDI, automation, or modulations
+- Interface with an external AI companion for higher-order control
+- Be modular and clean for Blackbox to assist in extending it
+
+Use Swift + AudioUnit + AUv3 APIs. UI can be SwiftUI or UIKit. Focus on musical utility and novel interactions.
